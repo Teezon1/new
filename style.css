@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content{
+    display: flex;
+    gap: 30px;
+    width: 70%;
+}
+
+.contentA{
+    padding: 10% 5%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.contentB{
+    padding: 10% 5%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.contentextra{
+    padding: 10% 5%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 900px;
+    display: none;
+}
